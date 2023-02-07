@@ -1,0 +1,247 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:200,300,regular,500,600,700,800);
+
+:root {
+  --primary-color: #e47312;
+  --primary-hover-color: #e98a38;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  margin: 40px 40px 0 40px;
+}
+
+.container {
+  background-image: linear-gradient(
+      76deg,
+      rgba(193, 195, 204, 0.83) 35%,
+      rgba(193, 195, 204, 0.28) 65%
+    ),
+    url("https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  max-width: 100%;
+  height: calc(100vh - 40px);
+  position: relative;
+  background-attachment: scroll, fixed;
+}
+
+.container header {
+  display: flex;
+  margin: 20px;
+  background-color: #fff;
+}
+
+.container header .logo {
+  background-color: var(--primary-color);
+  height: 112px;
+  position: absolute;
+  top: 40px;
+  left: 80px;
+}
+
+.container header .logo .logo_img {
+  width: 160px;
+  position: relative;
+  padding: 30px 35px;
+  display: flex;
+  top: 15px;
+}
+
+.container header nav {
+  background-color: #fff;
+  position: absolute;
+  height: 90px;
+  right: 220px;
+  top: 40px;
+  left: 240px;
+}
+
+.container header nav ul {
+  display: flex;
+  justify-content: end;
+  margin-right: 30px;
+}
+
+.container header nav li {
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 48px 20px;
+  position: relative;
+  display: inline-block;
+  top: -10px;
+  cursor: pointer;
+  transition: all ease 0.2s;
+  color: #414147;
+}
+
+.container header nav li.active {
+  color: var(--primary-color);
+}
+
+.container header nav li:hover {
+  color: var(--primary-color);
+}
+
+.container header .last {
+  height: 90px;
+  background-color: var(--primary-color);
+  position: absolute;
+  top: 40px;
+  width: 160px;
+  right: 60px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffff;
+  transition: all ease 0.2s;
+}
+
+.container header .last:hover {
+  background-color: var(--primary-hover-color);
+}
+
+.container header .last span {
+  position: relative;
+  top: 40px;
+  left: 33px;
+  letter-spacing: 1px;
+}
+
+.container .hero {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.container .hero .big_letters {
+  position: absolute;
+  font-weight: 600;
+  font-size: 62px;
+  line-height: 70px;
+  letter-spacing: 1px;
+  color: #ffff;
+  left: 320px;
+  top: 300px;
+  width: 650px;
+}
+
+.container .hero .small_letters {
+  color: rgb(249, 248, 248);
+  font-weight: 400;
+  font-size: 20px;
+  position: absolute;
+  left: 320px;
+  top: 380px;
+}
+
+.container .hero .last_letters {
+  background-color: #e47312;
+  position: absolute;
+  left: 320px;
+  top: 440px;
+  padding: 18px 33px;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffff;
+  transition: all ease 0.2s;
+}
+
+.container .hero .last_letters:hover {
+  background-color: var(--primary-hover-color);
+}
+
+.icons ul {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.icons ul li img {
+  width: 40px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.icons {
+  background-color: #0a1229;
+  position: absolute;
+  right: 0px;
+  top: 490px;
+}
+
+.border {
+  border-bottom: 1px solid rgb(59, 59, 59);
+}
+
+.last_nav .right {
+  background-color: #fff;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+}
+
+.last_nav .left {
+  background-color: #e47312;
+  background-image: linear-gradient(186deg, #e47312, #ff6361);
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 970px;
+  height: 230px;
+  right: 0px;
+  bottom: 25px;
+}
+
+.last_nav .left .left_first {
+  text-align: center;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.last_nav .left .left_second {
+  text-align: center;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.last_nav .left .left_third {
+  text-align: center;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bolder {
+  font-weight: 600;
+  font-size: 13px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.lighter {
+  font-size: 17px;
+  color: hsla(0, 0%, 100%, 0.7);
+}
+
+.photer {
+  width: 25px;
+  margin-bottom: 5px;
+}
