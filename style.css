@@ -544,3 +544,93 @@ body {
 .quote .link:hover {
   border-bottom: 1px solid #fff;
 }
+
+/*  ============ PROFESSIONALS SECTION ============  */
+
+.professionals .title1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 15%;
+}
+
+.professionals .title1 .main1 {
+  position: relative;
+}
+
+.professionals .title1 .main1 .background_title1 {
+  position: absolute;
+  font-size: 120px;
+  font-weight: 600;
+  letter-spacing: 11px;
+  color: rgba(241, 241, 247, 0.4);
+  left: -60px;
+  top: -80px;
+}
+
+.professionals .title1 .main1 h1 {
+  position: relative;
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.professionals .title1 .main_link1 a {
+  font-weight: 600;
+  font-size: 13px;
+  color: #919198;
+  letter-spacing: 1px;
+  margin-left: 850px;
+  padding-bottom: 5px;
+}
+
+.professionals .title1 .main_link1 a:hover {
+  border-bottom: 2px solid var(--primary-hover-color);
+}
+
+.professionals .cards_section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 170px;
+}
+
+.professionals .cards_section .card{  
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.professionals .cards_section .card .details{
+  padding: 30px 20px;
+}
+
+.professionals .cards_section .card .details h1{
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: #121213;
+  letter-spacing: 1px;
+}
+
+.professionals .cards_section .card .details p{
+  font-weight: 400;
+  font-size: 16px;
+  color: #bdbdc9;
+}
+
+.professionals .cards_section .card .flex-icons{
+  display: flex;
+  background-color: var(--primary-color);
+  position: absolute;
+  margin-left: 240px;
+  margin-top: 320px;
+}
+
+.professionals .cards_section .card .flex-icons ul li img{
+  width: 60px;
+  padding: 20px;
+}
