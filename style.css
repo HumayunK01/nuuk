@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Dosis:200,300,regular,500,600,700,800);
 
+/* ============ COMMON CSS ============ */
+
 :root {
   --primary-color: #e47312;
   --primary-hover-color: #e98a38;
@@ -18,6 +20,9 @@ body {
   margin: 40px 40px 0 40px;
 }
 
+/* ----------------------- HOME PAGE STARTS HERE ----------------------- */
+/* ============ BANNER ============ */
+
 .container {
   background-image: linear-gradient(
       76deg,
@@ -27,12 +32,13 @@ body {
     url("https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: center; */
   max-width: 100%;
   height: calc(100vh - 40px);
   position: relative;
   background-attachment: scroll, fixed;
 }
+
+/* ============ NAVIGATION BAR ============ */
 
 .container header {
   display: flex;
@@ -116,6 +122,8 @@ body {
   letter-spacing: 1px;
 }
 
+/* ============ MIDDLE SECTION ============ */
+
 .container .hero {
   display: flex;
   flex-direction: column;
@@ -160,6 +168,8 @@ body {
   background-color: var(--primary-hover-color);
 }
 
+/* ============ SOCIAL ICONS SECTION ============ */
+
 .icons ul {
   padding: 10px;
   display: flex;
@@ -182,6 +192,8 @@ body {
 .border {
   border-bottom: 1px solid rgb(59, 59, 59);
 }
+
+/* ============ LAST SECTION OF MIDDLE SECTION ============ */
 
 .last_nav .right {
   background-color: #fff;
@@ -245,3 +257,178 @@ body {
   width: 25px;
   margin-bottom: 5px;
 }
+/* ----------------------- HOME PAGE ENDS HERE ----------------------- */
+/* ----------------------- SERVICES PAGE STARTS HERE ----------------------- */
+
+.services {
+  max-width: 100%;
+  padding: 5% 17%;
+}
+
+/*  ============ SERVICES HEADING SECTION ============  */
+
+.services .top_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.services .background-rel {
+  font-size: 110px;
+  font-weight: 600;
+  letter-spacing: 11px;
+  color: rgba(241, 241, 247, 0.4);
+}
+
+.services .background-rel .main-heading {
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  top: -70px;
+}
+
+.services .background-rel .left-heading {
+  position: relative;
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: black;
+  left: 70px;
+  top: -70px;
+}
+
+.services .right-heading {
+  font-weight: 600;
+  font-size: 13px;
+  color: #919198;
+  letter-spacing: 1px;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+
+.services .right-heading:hover {
+  border-bottom: 2px solid var(--primary-hover-color);
+}
+
+/*  ============ SERVICES MENU SECTION ============  */
+
+.services .card1 div img {
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+.services .card1 .heading-of-cards {
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 17px;
+  color: #121213;
+  margin-bottom: 10px;
+}
+
+.services .card1 .heading-of-cards + .info {
+  font-size: 17px;
+  font-weight: 400;
+  color: #919197;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.learn {
+  letter-spacing: 1px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #919198;
+  margin-top: 15px;
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+
+.sec-1 {
+  width: 20%;
+  line-height: 25px;
+}
+
+.card1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0px;
+}
+
+/*  ============ ABOUT WHO WE ARE SECTION ============  */
+
+#sec-img img {
+  width: 527px;
+  margin-top: 100px;
+}
+
+#background-rel2 {
+  position: relative;
+  font-size: 120px;
+  font-weight: 600;
+  letter-spacing: 11px;
+  color: rgba(241, 241, 247, 0.4);
+}
+
+#left-heading2 {
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: black;
+  position: absolute;
+  top: 73px;
+  left: 53px;
+}
+
+.para {
+  margin-bottom: 30px;
+  color: #919197;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 400;
+  margin-left: 53px;
+}
+
+#meet {
+  font-size: 13px;
+  font-weight: 600;
+  color: #919198;
+  line-height: 20px;
+  margin-left: 50px;
+  letter-spacing: 1px;
+}
+
+#sec-letter {
+  display: flex;
+  justify-content: center;
+}
+
+#div-sec2 {
+  width: 490px;
+  margin-left: 80px;
+}
+
+.numbers div:nth-child(1) {
+  margin-bottom: 10px;
+  color: #e47312;
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 500;
+}
+.numbers div:nth-child(2) {
+  margin-bottom: 10px;
+  color: #919197;
+  font-size: 17px;
+  line-height: 25px;
+}
+#number-sec {
+  display: flex;
+  justify-content: space-between;
+  margin: 65px 0 0 0;
+}
+.numbers {
+  width: 140px;
+  padding-top: 60px;
+}
+
+/* ----------------------- SERVICES PAGE ENDS HERE -----------------------  */
