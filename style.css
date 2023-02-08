@@ -432,3 +432,115 @@ body {
 }
 
 /* ----------------------- SERVICES PAGE ENDS HERE -----------------------  */
+/* ----------------------- PROJECT PAGE STARTS HERE ----------------------- */
+
+.projects {
+  background-color: #f7f8fc;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/*  ============ GALLERY SECTION ============  */
+
+.projects .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7% 17%;
+}
+
+.projects .title .main {
+  position: relative;
+}
+
+.projects .title .main .background_title {
+  position: absolute;
+  font-size: 120px;
+  font-weight: 600;
+  letter-spacing: 11px;
+  color: rgba(241, 241, 247, 0.4);
+  left: -60px;
+  top: -80px;
+}
+
+.projects .title .main h1 {
+  position: relative;
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.projects .title .main_link a {
+  font-weight: 600;
+  font-size: 13px;
+  color: #919198;
+  letter-spacing: 1px;
+  margin-left: 850px;
+  padding-bottom: 5px;
+}
+
+.projects .title .main_link a:hover {
+  border-bottom: 2px solid var(--primary-hover-color);
+}
+
+.projects .gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.projects .gallery img {
+  max-width: 580px;
+  cursor: pointer;
+  margin: 10px;
+  transition: all ease 0.2s;
+}
+
+.projects .gallery img:hover {
+  filter: brightness(60%);
+}
+
+/*  ============ QUOTE SECTION ============  */
+
+.quote {
+  background-image: linear-gradient(72deg, #e47312, rgba(255, 99, 97, 0.78)),
+    url(https://nuuk-e3eaa.firebaseapp.com/assets/img/banner-2.jpg);
+  background-position: 0px 0px, center;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, fixed;
+  padding: 130px 0;
+  text-align: center;
+  color: #fff;
+  margin: 0 0 100px 0;
+}
+.quote h1 {
+  font-size: 42px;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.quote p {
+  margin-bottom: 40px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+}
+
+.quote .link {
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 1px;
+  transition: all ease 0.2s;
+  padding: 3px;
+}
+
+.quote .link:hover {
+  border-bottom: 1px solid #fff;
+}
