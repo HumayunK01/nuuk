@@ -869,4 +869,5 @@ footer .fbottom{
 
 footer .fbottom img{
   display: block;
+  cursor: pointer;
 }
