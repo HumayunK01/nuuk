@@ -30,6 +30,10 @@ body {
   padding: 70px 0;
 }
 
+h1, h2, h3, h4, h5, h6{
+  font-weight: 600;
+}
+
 /* ----------------------- HOME PAGE STARTS HERE ----------------------- */
 /* ============ BANNER ============ */
 
@@ -746,6 +750,138 @@ body {
 }
 
 /* ----------------------- TESTIMONIALS PAGE ENDS HERE ----------------------- */
+/* ----------------------- BLOG SECTION STARTS HERE ----------------------- */
+
+.blog{
+  background: #fff;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 150px 300px;
+}
+
+.blog .blog-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog .blog-container .blog-title1{
+  display: flex;
+  z-index: 1;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  align-items: flex-end;
+}
+
+.blog .blog-container .backh1{
+  position: absolute;
+  margin-top: -85px;
+  margin-left: -50px;
+  color: rgba(241, 241, 247, 0.4);
+  font-size: 120px;
+  letter-spacing: 11px; 
+}
+
+.blog .blog-container .blog-title1 h1{
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.blog .blog-container .blog-title1 a{
+  color: #919198;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.blog .blog-cards{
+  display: flex;
+  margin-right: -15px;
+  margin-left: -15px;
+  gap: 20px;
+}
+
+.blog .blog-cards .blog-card1{
+  background-image: linear-gradient(56deg, #e47312, #ff6361);
+}
+
+.blog .blog-cards .blog-card1 img{
+  width: 100%;
+}
+
+.blog .blog-cards .blog-details{
+  padding: 30px;
+}
+
+.blog .blog-cards .blog-details .blog-title{
+  color: #fff;
+  margin-right: 0px;
+  margin-bottom: 15px;
+  font-size: 19px;
+  line-height: 26px;
+}
+
+.blog .blog-cards .blog-details .blog-para{
+  margin-bottom: 15px;
+  color: #fff;
+  opacity: 0.8;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.blog .blog-cards .blog-details .blog-link{
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 1px;
+  opacity: 0.8;
+  text-transform: uppercase;
+  padding: 3px 0;
+  border-bottom: 2px solid #fff;
+}
+
+.blog .blog-cards .blog-details .blog-link:hover{
+  opacity: 1;
+}
+
+.blog .blog-cards .blog-card1 .blog-date{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 75px;
+  height: 100px;
+  background: #fff;
+}
+
+.blog .blog-cards .blog-card1 .blog-date .blog-date1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(45deg, #ff6361, #e47312);
+  padding: 20px;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.blog .blog-cards .blog-card1 .blog-date .blog-date2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #9d9da5;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 3px;
+}
+
+
+/* ----------------------- BLOG SECTION STARTS HERE ----------------------- */
 /* ----------------------- COMPANIES SECTION STARTS HERE ----------------------- */
 
 .company{
@@ -772,6 +908,7 @@ body {
   margin-right: 50px;
 }
 
+/* ----------------------- COMPANIES SECTION ENDS HERE ----------------------- */
 /* ----------------------- FOOTER SECTION STARTS HERE ----------------------- */
 
 footer{
