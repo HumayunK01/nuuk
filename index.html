@@ -2,11 +2,14 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <title>Nuuk WebApp</title>
     <meta name="viewport" content="width-device-width,initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="shortcut icon" href="https://nuuk-e3eaa.firebaseapp.com/assets/img/n1.jpg" type="image/x-icon">
-    <title>EdYoda | HTML & CSS Final Project</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
@@ -15,27 +18,25 @@
     />
   </head>
   <body>
-    <!-- ------------ HOME PAGE STARTS HERE------------  -->
-    <!-- ========== BANNER ========== -->
-    <section class="banner">
-        <!-- ========== NAV BAR ========== -->
-      <div class="navbar">
-        <a href="#" class="brand"
+    <section id="top-banner">
+      <div id="navbar">
+        <a href="#" id="brand"
           ><img
             src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-white.png"
             width="90"
+            alt="nuuk logo"
         /></a>
         <nav>
-          <a class="menus active" href="#"><div>Home</div></a>
-          <a class="menus" href="#"><div>Projects</div></a>
-          <a class="menus" href="#"><div>About</div></a>
-          <a class="menus" href="#"><div>Services</div></a>
-          <a class="menus" href="#"><div>Blog</div></a>
-          <div class="dropdown-wrapper">
+          <a class="menus" href="#"><div>home</div></a>
+          <a class="menus" href="#"><div>projects</div></a>
+          <a class="menus" href="#"><div>about</div></a>
+          <a class="menus" href="#"><div>services</div></a>
+          <a class="menus" href="#"><div>blog</div></a>
+          <div id="dropdown-wrapper">
             <a class="menus" href="#"
               ><div>pages</div>
               <img
-                class="dropdown-btn"
+                id="dropdown-btn"
                 src="https://nuuk-e3eaa.firebaseapp.com/assets/img//sort-down.svg"
                 alt="dropdown"
             /></a>
@@ -49,8 +50,6 @@
           </a>
         </div>
       </div>
-
-      <!-- ========== MIDDLE SECTION ========== -->
       <div id="slogan-section">
         <div>
           <h1>you dream. we create.</h1>
@@ -60,7 +59,6 @@
           <span id="slogan-section-btn" class="quote-btn">get free quote</span>
         </div>
       </div>
-      <!-- ============ SOCIAL ICONS SECTION ============ -->
       <div id="social-btn-section">
         <a href="#">
           <div class="social-icons"><i class="fab fa-facebook-f"></i></div>
@@ -69,7 +67,6 @@
           <div class="social-icons"><i class="fab fa-instagram"></i></div>
         </a>
       </div>
-    <!-- ============ CONTACT US SECTION ============ -->
       <div id="contact-section">
         <div class="info">
           <img
@@ -103,8 +100,6 @@
         </div>
       </div>
     </section>
-
-    <!-- ------------ SERVICES PAGE STARTS HERE ------------  -->
     <section id="service-section">
       <div class="sections-topbar">
         <div class="title-wrapper">

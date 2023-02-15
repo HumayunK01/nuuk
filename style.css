@@ -1,21 +1,13 @@
-/* --------------- Important CSS Section --------------- */
-@import url(https://fonts.googleapis.com/css?family=Dosis:200,300,regular,500,600,700,800);
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Dosis", sans-serif;
-}
 body {
   margin: 2% 2% 0 2%;
   color: #121213;
   font-size: 14px;
   line-height: 20px;
+  font-family: "Dosis", sans-serif;
 }
+/*top-banner section*/
 
-/* --------------- Banner Section --------------- */
-
-.banner {
+#top-banner {
   width: 100%;
   background-image: linear-gradient(
       76deg,
@@ -33,10 +25,7 @@ body {
   box-sizing: border-box;
   position: relative;
 }
-
-/* --------------- Nav-Bar Section --------------- */
-
-.navbar {
+#navbar {
   margin-left: auto;
   margin-right: auto;
   background-color: #fff;
@@ -46,8 +35,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
-.brand {
+#brand {
   position: relative;
   top: 12px;
   box-sizing: border-box;
@@ -59,7 +47,6 @@ body {
   padding: 0 35px;
   background-color: #e47312;
 }
-
 .menus {
   display: inline-block;
   position: relative;
@@ -71,21 +58,21 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
-
 .menus > div {
   display: inline-block;
   padding: 3px 0;
   box-sizing: border-box;
 }
-
-nav .active {
+nav > .menus:first-of-type {
   color: #e47312;
 }
-
+.menus:hover::before,
+.menus:hover::after {
+  height: 30px;
+}
 .menus:hover {
   color: #e47312;
 }
-
 .quote-btn {
   display: inline-block;
   cursor: pointer;
@@ -104,33 +91,13 @@ nav {
   justify-content: center;
   align-items: center;
 }
-
 .quote-btn:hover {
   background-color: #e98a38;
 }
-
-.dropdown-wrapper {
-  display: inline-block;
-  position: relative;
-}
-
-.dropdown {
-  box-sizing: border-box;
-  padding: 9px 13px;
-  background-color: #fff;
-  min-width: 150px;
-  height: 180px;
-  position: absolute;
-  top: 86px;
-  right: -100px;
-  display: none;
-}
-
-.dropdown-btn {
+#dropdown-btn {
   width: 6px;
   margin-left: 7px;
 }
-
 #hamburger-icon {
   box-sizing: border-box;
   margin: 0;
@@ -140,7 +107,6 @@ nav {
   position: relative;
   display: none;
 }
-
 .hamburger-line {
   height: 2px;
   width: 50%;
@@ -149,18 +115,14 @@ nav {
   top: 50%;
   left: 25%;
 }
-
 .hamburger-line:first-of-type {
   transform: translateY(8px);
 }
-
 .hamburger-line:last-of-type {
   transform: translateY(-4px);
 }
-
-/* --------------- Middle Section --------------- */
 #slogan-section {
-  margin-top: 175px;
+  margin-top: 75px;
   width: 55%;
   box-sizing: border-box;
 }
@@ -193,6 +155,7 @@ nav {
   background-color: #0a1229;
   display: flex;
   flex-direction: column;
+  width: 40px;
   position: absolute;
   right: 0;
   bottom: 165px;
@@ -211,8 +174,6 @@ nav {
   justify-content: center;
   align-items: center;
 }
-
-/* -------------- CONTACT US SECTION -------------- */
 #contact-section {
   width: 1000px;
   padding: 45px 100px 35px 50px;
@@ -268,7 +229,8 @@ nav {
   border-bottom: 1px solid #fff;
 }
 
-/*  ------------ SERVICES PAGE STARTS HERE ------------ */
+/*service section*/
+
 #service-section {
   padding: 15% 5% 5% 5%;
 }
